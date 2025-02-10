@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@200&display=swap");
 * {
-  font-family: "Ysabeau SC", sans-serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 html {
   overflow-x: hidden;
@@ -88,8 +88,7 @@ body {
 .card-text {
   color: white;
 }
-#services .card,
-#projects .card {
+#services .card {
   background-color: #222;
   color: #fff;
 }
@@ -146,3 +145,10 @@ body {
 .cards .card:hover {
   transform: scale(1.1, 1.1);
 }
+
+.card{
+  background-color: #222;
+}
+
+
+
