@@ -1,6 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@200&display=swap");
+
 * {
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family:  Georgia, "Times New Roman", Times, serif;
 }
 html {
   overflow-x: hidden;
@@ -54,8 +54,26 @@ body {
     0 6px 20px 2px rgba(0, 0, 255, 0.3);
 }
 .navbar {
-  width: 100vw;
+  width: 100%;
 }
+
+.navbar-nav .nav-link {
+  transition: color 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #00C896 !important; 
+}
+
+.navbar-brand {
+  transition: color 0.3s ease-in-out;
+}
+
+.navbar-brand:hover {
+  color: #00C896 !important;
+}
+
+
 /* Dark Mode */
 
 body {
@@ -86,7 +104,8 @@ body {
 }
 .card-title,
 .card-text {
-  color: white;
+  color: #6610f2;
+  ;
 }
 #services .card {
   background-color: #222;
@@ -114,8 +133,8 @@ body {
 }
 
 .btn {
-  font-size: 1rem;
-  padding: 1rem 2.5rem;
+  font-size: 0.8rem;
+  padding: 0.9rem 1.9rem;
   border: none;
   outline: none;
   border-radius: 0.4rem;
@@ -125,7 +144,7 @@ body {
   font-weight: 700;
   transition: 0.6s;
   box-shadow: 0px 0px 60px #1f4c65;
-  -webkit-box-reflect: below 10px
+  -webkit-box-reflect: below 2px
     linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4));
 }
 
@@ -151,4 +170,59 @@ body {
 }
 
 
+.projects-wrapper {
+  position: relative;
+  overflow: hidden;
+  padding: 10px 0;
+  padding-left: 60px;
+}
 
+.projects-container {
+  display: flex;
+  gap: 45px;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  white-space: nowrap;
+  padding-bottom: 10px;
+  width: 1200px;
+  padding-right: 75px;
+  right: 100px;
+}
+
+.projects-container::-webkit-scrollbar {
+  display: none;
+}
+
+.projects-container {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+
+.scroll-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  font-size: 2.5em;
+  cursor: pointer;
+  z-index: 10;
+  border-radius: 50%;
+}
+
+.scroll-btn-left {
+  left: -20px;
+  height: 80px;
+  width: 80px;
+  margin-top: 80px;
+}
+
+.scroll-btn-right {
+  right: -40px;
+  height: 80px;
+  width: 80px;
+  margin-top: 80px;
+}

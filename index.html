@@ -1,445 +1,520 @@
-    <!DOCTYPE html>
-    <html lang="en">
+<!DOCTYPE html>
+<html lang="en">
 
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="icon" type="image/jpg" sizes="32x32" href="./img/icon.jpg" />
-        <link rel="manifest" href="./site.webmanifest" />
-        <title>Portfolio</title>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
-            integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
-            crossorigin="anonymous" />
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
-        <link rel="stylesheet" href="style.css">
-    </head>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/jpg" sizes="32x32" href="./img/icon.jpg" />
+    <link rel="manifest" href="./site.webmanifest" />
+    <title>Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+</head>
 
-    <body>
-        <!-- Navbar start -->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">Portfolio</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#home">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#about">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#projects">Projects</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#achievements">Achievements</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#services">Services</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#contact">Contact</a>
-                        </li>
-                    </ul>
-                </div>
+<body>
+    <!-- Navbar start -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#achievements">Achievements</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
             </div>
-        </nav>
-        <!-- Navbar-end -->
-        <!-- Banner Start -->
-        <section class="bannerBgImage mt-5" id="home">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-md-12 bannerText">
-                        <h2 class="bannerTitle animate__animated animate__fadeInDown">
-                            Hey There!!
-                        </h2>
-                        <p class="bannerDescription">
-                            My Name is ANIL KUMAR KOTYADA,I am a Full Stack Web Developer,<br />
-                            A fervent who puts up the best.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Banner End -->
-
-        <!-- About Start-->
-
-        <section class="container pt-5" data-aos="fade-up" data-aos-duration="2000" id="about">
-            <h2 class="text-center pt-5">About Me</h2>
+        </div>
+    </nav>
+    <!-- Navbar-end -->
+    <!-- Banner Start -->
+    <section class="bannerBgImage mt-5" id="home">
+        <div class="container-fluid">
             <div class="row">
-                <div class="col-md-4 mb-1 image-container">
-                    <img src="img/anil_pic.jpg" alt="Passport Picture" class="card-img img-fluid" />
-                </div>
-                <div class="col-md-8 right">
-                    <p>
-                        Hello, my name is Kotyada Anilkumar.<br />
-                        I am a B.Tech graduate from Raghu Engineering College, located in Visakhapatnam, Andhra
-                        Pradesh.<br />
-                        I am a certified Front-End Developer, trained through IBM Skillsbuild, <br />
-                        and I have recently completed a Full-Stack Web Development course with 100xDevs.<br /><br />
-
-                        Currently, I am upskilling my skills.<br />
-                        I am a passionate web developer dedicated to creating visually stunning and highly functional
-                        websites.<br />
-                        From designing engaging user interfaces to implementing intuitive navigation, I prioritize user
-                        experience in every website I build.<br />
-                        I am open to new opportunities and eager to collaborate with diverse teams to create innovative
-                        web solutions.
+                <div class="col-md-12 bannerText">
+                    <h2 class="bannerTitle animate__animated animate__fadeInDown">
+                        Hey There!!
+                    </h2>
+                    <p class="bannerDescription">
+                        My Name is ANIL KUMAR KOTYADA,I am a Full Stack Web Developer,<br />
+                        A fervent who puts up the best.
                     </p>
-
-                    <div class="row">
-                        <div class="col-md-8">
-                            <ul>
-                                <li>Full Name: ANIL KUMAR KOTYADA</li>
-                                <li>Age: 21</li>
-                                <li>Occupation: Student</li>
-                                <li>
-                                    Skills: Html, Css, JavaScript,TypeScript, React, Node.js, Express.js,Next.js,
-                                    MongoDB, PostgreSQl,
-                                    Tailwind CSS, Git, Docker.
-                                </li>
-                                <li>
-                                    Resume:
-                                    <a href="/img/Anil_resume_final.pdf" target="_blank" rel="noopener noreferrer"
-                                        class="text-decoration-none">Click Here for my resume</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <!-- About End-->
+    <!-- Banner End -->
 
-        <!-- Projects start -->
-        <section id="projects" class="mt-4 pt-1">
-            <div class="container pt-5">
-                <h2 class="text-center mb-4">Projects</h2>
-                <div class="row cards">
-                    <div class="col-md-4 mb-4">
-                        <div class="card w-100 h-100" data-aos="fade-up-right" style="width: 18 rem">
-                            <div class="card-body d-flex flex-column">
-                                <h6 class="card-title">E-commerce</h6>
-                                <a href="https://ecommerce-frontend-kohl.vercel.app/" target="_blank"
-                                    class="card-link mt-auto text-decoration-none">E-commerce Project URL</a>
-                                <a href="https://ecommerce-admin-bice-seven.vercel.app/add" target="_blank"
-                                    class="card-link mt-auto text-decoration-none">E-commerce Admin Panel URL</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 mb-4">
-                        <div class="card w-100 h-100" data-aos="fade-up-right" style="width: 18 rem">
-                            <div class="card-body d-flex flex-column">
+    <!-- About Start-->
 
-                                <h6 class="card-title">Spotify Clone</h6>
-                                <a href="https://spotify-frontend-my4v.onrender.com/" target="_blank"
-                                    class="card-link mt-auto text-decoration-none">Spotify Project URL</a>
-                                <a href="https://spotify-admin-4mzz.onrender.com/" target="_blank"
-                                    class="card-link mt-auto text-decoration-none">E-commerce Admin Panel URL</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 mb-4">
-                        <div class="card w-100 h-100" data-aos="fade-up-right" style="width: 18 rem">
-                            <div class="card-body d-flex flex-column">
-
-                                <h6 class="card-title">Banking Application</h6>
-                                <a href="https://banking-app-lyart-eight.vercel.app/sign-in" target="_blank"
-                                    class="card-link mt-auto text-decoration-none">Banking-App Project URL</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 mb-4">
-                        <div class="card w-100 h-100" data-aos="fade-up-right" style="width: 18 rem">
-                            <div class="card-body d-flex flex-column">
-                                <h6 class="card-title">Magic Game</h6>
-                                <a href="https://magic-game-lyart.vercel.app/" target="_blank"
-                                    class="card-link ms-0 text-decoration-none">Magic Game URL</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 mb-4">
-                        <div class="card w-100 h-100" data-aos="fade-up-right" style="width: 18 rem">
-                            <div class="card-body d-flex flex-column">
-                                <h6 class="card-title">Invoice PDF Generater</h6>
-                                <a href="https://invoice-frontend-0tyz.onrender.com/" target="_blank"
-                                    class="card-link ms-0 text-decoration-none">Invoice PDF Generater</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 mb-4">
-                        <div class="card w-100 h-100" data-aos="fade-up-right" style="width: 18 rem">
-                            <div class="card-body d-flex flex-column">
-                                <h6 class="card-title">Rock Paper Scissor Game</h6>
-                                <a href="https://sps-game-sigma.vercel.app/" target="_blank"
-                                    class="card-link ms-0 text-decoration-none">RPS Game URL</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 mb-4">
-                        <div class="card w-100 h-100" data-aos="fade-up-right" style="width: 18 rem">
-                            <div class="card-body d-flex flex-column">
-                                <h6 class="card-title">Tic Tac Toe Game</h6>
-                                <a href="https://tic-tac-toe-game-ten-orcin.vercel.app/" target="_blank"
-                                    class="card-link ms-0 text-decoration-none">TTT Game URL</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 mb-4">
-                        <div class="card w-100 h-100" data-aos="fade-up-right" style="width: 18 rem">
-                            <div class="card-body d-flex flex-column">
-                                <h6 class="card-title">Background Changer</h6>
-                                <a href="https://background-changer-lake-rho.vercel.app/" target="_blank"
-                                    class="card-link ms-0 text-decoration-none">Background Changer
-                                    URL</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 mb-4">
-                        <div class="card w-100 h-100" data-aos="fade-up-right" style="width: 18 rem">
-                            <div class="card-body d-flex flex-column">
-                                <h6 class="card-title">Mac-Portfolio</h6>
-                                <a href="https://portfolio-ten-pied-47.vercel.app/" target="_blank"
-                                    class="card-link ms-0 text-decoration-none">URL</a>    
-                            </div>
-                        </div>
-                    </div>
-                </div>
+    <section class="container pt-5 pb-5" data-aos="" data-aos-duration="2000" id="about">
+        <h2 class="text-center pt-5 fw-bold">About Me</h2>
+        <div class="row">
+            <div class="col-md-4 mb-1 image-container">
+                <img src="img/anil_pic.jpg" alt="Passport Picture" class="card-img img-fluid" />
             </div>
-        </section>
-        <!-- Projects end -->
+            <div class="col-md-8 right">
+                <p>
+                    Hello, my name is Kotyada Anilkumar.<br />
+                    I am a B.Tech graduate from Raghu Engineering College, located in Visakhapatnam, Andhra
+                    Pradesh.<br />
+                    I am a certified Front-End Developer, trained through IBM Skillsbuild, <br />
+                    and I have recently completed a Full-Stack Web Development course with 100xDevs.<br /><br />
 
-        <!-- Achievements start -->
-        <section id="achievements" class="mt-4 pt-1">
-            <div class="container pt-5">
-                <h2 class="text-center mb-4">Achievements</h2>
-                <div class="row cards">
-                    <div class="col-md-4 mb-4">
-                        <div class="card w-100 h-100" data-aos="fade-up-right" style="width: 18 rem">
-                            <div class="card-body d-flex flex-column">
-                                <h5 class="card-title">IBM certificateS</h5>
+                    Currently, I am upskilling my skills.<br />
+                    I am a passionate web developer dedicated to creating visually stunning and highly functional
+                    websites.<br />
+                    From designing engaging user interfaces to implementing intuitive navigation, I prioritize user
+                    experience in every website I build.<br />
+                    I am open to new opportunities and eager to collaborate with diverse teams to create innovative
+                    web solutions.
+                </p>
 
-                                <p class="card-text">
-                                    IBM Learning Plan CertificateS
-                                </p>
-                                <a href="img/IBM certificate.jpg" target="_blank"
-                                    class="card-link mt-auto text-decoration-none">certificate</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 mb-4">
-                        <div class="card w-100 h-100" data-aos="fade-up-right" style="width: 18 rem">
-                            <div class="card-body d-flex flex-column">
-                                <h5 class="card-title">Full Stack Web Development</h5>
-
-                                <p class="card-text">
-                                    100xDevs Course
-                                </p>
-                                <a href="img/Full-Stack web Development certificate.png" target="_blank"
-                                    class="card-link mt-auto text-decoration-none">certificate</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 mb-4">
-                        <div class="card w-100 h-100" data-aos="fade-up" style="width: 18 rem">
-                            <div class="card-body d-flex flex-column">
-                                <h5 class="card-title">Coding Ninjas</h5>
-
-                                <p class="card-text">
-                                    Coding Ninjas round 1 and round 2 certificate
-                                </p>
-                                <a href="img/coding ninjas round 1 certificate.pdf" target="_blank"
-                                    class="card-link mt-auto text-decoration-none">certificate of Participation</a>
-                                <a href="img/coding ninjas round 2 certificate.pdf" target="_blank"
-                                    class="card-link ms-0 text-decoration-none">certificate of Participation</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 mb-4">
-                        <div class="card w-100 h-100" data-aos="fade-down-right" style="width: 18 rem">
-                            <div class="card-body d-flex flex-column">
-                                <h5 class="card-title">International Olympiad of Mathematics</h5>
-
-                                <p class="card-text">The Measure of Achievement.</p>
-                                <a href="img/olympaid of mathematics.jpg" target="_blank"
-                                    class="card-link mt-auto text-decoration-none">certificate of participation</a>
-                                <a href="img/olympaid of mathematics 3rd position.jpg" target="_blank"
-                                    class="card-link mt-auto text-decoration-none">certificate</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 mb-4">
-                        <div class="card w-100 h-100" data-aos="fade-up-right" style="width: 18 rem">
-                            <div class="card-body d-flex flex-column">
-                                <h5 class="card-title"> Ntpel</h5>
-
-                                <p class="card-text">
-                                    Ntpel Cloud computing
-                                </p>
-                                <a href="img/ntpel cloud computing.jpg" target="_blank"
-                                    class="card-link mt-auto text-decoration-none">certificate</a>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Achievements End -->
-
-        <!-- services start -->
-
-        <section id="services" class="mt-4 pt-1">
-            <div class="container pt-5">
-                <h2 class="text-center mb-4">Services</h2>
                 <div class="row">
-                    <div class="col-md-4 mb-4">
-                        <div class="card w-100 mb-3 h-100" data-aos="flip-right" data-aos-duration="1000"
-                            style="width: 18rem">
-                            <img src="img/card2.jpg" class="card-img-top" alt="Web Developer icon" />
-                            <div class="card-body d-flex flex-column">
-                                <h5 class="card-title text-center mb-4">Front-End Web Developer</h5>
-                                <p class="card-text mt-auto">
-                                    I am a certified Front-End Developer. And build various
-                                    responsive websites
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 mb-4">
-                        <div class="card w-100 mb-3 h-100" data-aos="flip-right" data-aos-duration="1000"
-                            style="width: 18rem">
-                            <img src="img/card1.jpg" class="card-img-top" alt="Android App Development" />
-                            <div class="card-body d-flex flex-column">
-                                <h5 class="card-title text-center mb-3">
-                                    Full Stack Web Development
-                                </h5>
-                                <p class="card-text mt-auto">
-                                    Service i provide the best quality
-                                    and at the request of the clients,
-                                    with professional work and customer
-                                    support.
-                                </p>
-                            </div>
-                        </div>
+                    <div class="col-md-8">
+                        <ul>
+                            <li>Full Name: ANIL KUMAR KOTYADA</li>
+                            <li>Age: 21</li>
+                            <li>Occupation: Student</li>
+                            <li>
+                                Skills: HTML, CSS, JavaScript,TypeScript, React.js, Node.js, Express.js, Next.js,
+                                MongoDB, PostgreSQl, Tailwind CSS, Git, Docker, C++.
+                            </li>
+                            <li>
+                                Resume:
+                                <a href="/img/Anil_resume_final.pdf" target="_blank" rel="noopener noreferrer"
+                                    class="text-decoration-none">Click Here for my resume</a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
+        </div>
+    </section>
 
+    <!-- About End-->
 
-            <!-- services End -->
-
-            <!-- Contact start  -->
-            <section id="contact" class="mt-4 mb-3 pt-1">
-                <div class="container-fluid pt-5">
-                    <h2 class="text-center mb-4">Connect with me!!</h2>
-                    <div class="row">
-                        <div class="col-md-6 d-flex justify-content-center mb-4">
-                            <iframe
-                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d486415.1748493235!2d82.93360182779787!3d17.73905227669159!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a39431389e6973f%3A0x92d9c20395498468!2sVisakhapatnam%2C%20Andhra%20Pradesh!5e0!3m2!1sen!2sin!4v1687458657881!5m2!1sen!2sin"
-                                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                                referrerpolicy="no-referrer-when-downgrade"></iframe>
-                        </div>
-
-                        <div class="col-md-6">
-                            <form id="form-data">
-                                <div class="mb-3">
-                                    <label for="Name" class="form-label">Full Name:</label>
-                                    <input type="text" class="form-control" id="Name" placeholder="Enter Your Name"
-                                        aria-describedby="emailHelp" />
+    <!-- Projects start -->
+    <section id="projects" class="mt-4 pt-1">
+        <div class="container pt-5 position-relative">
+            <h2 class="text-center fw-bold mb-5 mt-5">Projects</h2>
+            <button id="scrollLeft" class="scroll-btn scroll-btn-left">‹</button>
+            <div class="projects-wrapper">
+                <div class="projects-container" id="projectsContainer">
+                    <div class="col-md-4 mb-4 ms-3 row cards">
+                        <a href="https://ecommerce-frontend-kohl.vercel.app/" target="_blank" class="text-decoration-none">
+                            <div class="card w-100 h-100" data-aos="fade-up-right" style="width: 18rem; min-height: 350px; cursor: pointer;">
+                                <div style="height: 195px; background-image: url('./img/E-commerce.png'); background-size: cover; background-position: center; border-radius: 4px;">
                                 </div>
-                                <div class="mb-3">
-                                    <label for="teleInput" class="form-label">Contact Number:</label>
-                                    <input type="tel" class="form-control" id="teleInput"
-                                        placeholder="Enter Your Contact Number" aria-describedby="emailHelp" />
-                                </div>
-                                <div class="mb-3">
-                                    <label for="InputEmail1" class="form-label">Email Address:</label>
-                                    <input type="email" class="form-control" id="InputEmail1"
-                                        placeholder="Enter Your Email Address" aria-describedby="emailHelp" />
-                                    <div id="emailHelp" class="form-text">
-                                        We'll never share your email with anyone else.
+                                <div class="card-body text-left">
+                                    <h6 class="card-title text-#6610f2 fw-bold">E-commerce</h6>
+                                    <p class="card-text text-white">A fully functional e-commerce platform with</br> user authentication, product listings, and a</br> seamless shopping experience.</p>
+                                    <div class="d-flex flex-column align-items-center mt-auto">
+                                        <div class="d-flex justify-content-center gap-2">
+                                            <span class="badge text-white px-3 py-2 border border-secondary rounded-pill" style="background: rgba(255, 255, 255, 0.1);">React.Js</span>
+                                            <span class="badge text-white px-3 py-2 border border-secondary rounded-pill" style="background: rgba(255, 255, 255, 0.1);">JavaScript</span>
+                                            <span class="badge text-white px-3 py-2 border border-secondary rounded-pill" style="background: rgba(255, 255, 255, 0.1);">Tailwind CSS</span>
+                                        </div>
+                                        <div class="d-flex justify-content-center gap-2 mt-2">
+                                            <span class="badge text-white px-3 py-2 border border-secondary rounded-pill" style="background: rgba(255, 255, 255, 0.1);">Node.Js</span>
+                                            <span class="badge text-white px-3 py-2 border border-secondary rounded-pill"
+                                                style="background: rgba(255, 255, 255, 0.1);">MongoDB</span>
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="mb-3">
-                                    <label for="Message" class="form-label">Message:</label>
-                                    <textarea class="form-control" id="Message" rows="3"
-                                        placeholder="Enter Your Message"></textarea>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-4 mb-4 row cards">
+                        <a href="https://spotify-frontend-my4v.onrender.com/" target="_blank" class="text-decoration-none">
+                            <div class="card w-100 h-100" data-aos="fade-up-right" style="width: 18rem; min-height: 300px; cursor: pointer;">
+                                <div style="height: 200px; background-image: url('./img/Spotify.png'); background-size: cover; background-position: center; border-radius: 4px;">
                                 </div>
-                                <button type="submit" class="btn btn-primary mt-3 mb-5">
-                                    Submit
-                                </button>
-                            </form>
+                                <div class="card-body text-left">
+                                    <h6 class="card-title text-#6610f2 fw-bold">Spotify Clone</h6>
+                                    <p class="card-text text-white">A fully functional music streaming application</br> with user authentication, playlist management,</br> and a seamless listening experience.</p>
+                                    <div class="d-flex flex-column align-items-center mt-auto">
+                                        <div class="d-flex justify-content-center gap-2">
+                                            <span class="badge text-white px-3 py-2 border border-secondary rounded-pill" style="background: rgba(255, 255, 255, 0.1);">Vite</span>
+                                            <span class="badge text-white px-3 py-2 border border-secondary rounded-pill" style="background: rgba(255, 255, 255, 0.1);">JavaScript</span>
+                                            <span class="badge text-white px-3 py-2 border border-secondary rounded-pill" style="background: rgba(255, 255, 255, 0.1);">Tailwind CSS</span>
+                                        </div>
+                                        <div class="d-flex justify-content-center gap-2 mt-2">
+                                            <span class="badge text-white px-3 py-2 border border-secondary rounded-pill" style="background: rgba(255, 255, 255, 0.1);">MongoDB</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-4 mb-4 row cards">
+                        <a href="https://banking-app-lyart-eight.vercel.app/sign-in" target="_blank" class="text-decoration-none">
+                            <div class="card w-100 h-100" data-aos="fade-up-right" style="width: 18rem; min-height: 300px; cursor: pointer;">
+                                <div style="height: 200px; background-image: url('./img/banking.png'); background-size: cover; background-position: center; border-radius: 4px;">
+                                </div>
+                                <div class="card-body text-left">
+                                    <h6 class="card-title text-#6610f2 fw-bold">Banking Application</h6>
+                                    <p class="card-text text-white">A secure and user-friendly banking application</br>with
+                                        features like user authentication, fund</br> transfers, transaction history, and account</br> management.</p>
+                                    <div class="d-flex flex-column align-items-center mt-auto">
+                                        <div class="d-flex justify-content-center gap-2">
+                                            <span class="badge text-white px-3 py-2 border border-secondary rounded-pill" style="background: rgba(255, 255, 255, 0.1);">Next.Js</span>
+                                            <span class="badge text-white px-3 py-2 border border-secondary rounded-pill" style="background: rgba(255, 255, 255, 0.1);">TypeScript</span>
+                                            <span class="badge text-white px-3 py-2 border border-secondary rounded-pill" style="background: rgba(255, 255, 255, 0.1);">Tailwind CSS</span>
+                                        </div>
+                                        <div class="d-flex justify-content-center gap-2 mt-2">
+                                            <span class="badge text-white px-3 py-2 border border-secondary rounded-pill" style="background: rgba(255, 255, 255, 0.1);">Appwrite</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-4 mb-4 row cards">
+                        <a href="https://magic-game-lyart.vercel.app/" target="_blank" class="text-decoration-none">
+                            <div class="card w-100 h-100" data-aos="fade-up-right" style="width: 18rem; min-height: 300px; cursor: pointer;">
+                                <div style="height: 200px; background-image: url('./img/magic.png'); background-size: cover; background-position: center; border-radius: 4px;">
+                                </div>
+                                <div class="card-body text-left">
+                                    <h6 class="card-title text-#6610f2 fw-bold">Magic Game</h6>
+                                    <p class="card-text text-white">An interactive and fun magic game that</br> challenges players with exciting tricks, </br>surprises, and engaging gameplay.
+                                    </p>
+                                    <div class="d-flex flex-column align-items-center mt-auto">
+                                        <div class="d-flex justify-content-center gap-2">
+                                            <span class="badge text-white px-3 py-2 border border-secondary rounded-pill" style="background: rgba(255, 255, 255, 0.1);">React</span>
+                                            <span class="badge text-white px-3 py-2 border border-secondary rounded-pill" style="background: rgba(255, 255, 255, 0.1);">JavaScript</span>
+                                            <span class="badge text-white px-3 py-2 border border-secondary rounded-pill" style="background: rgba(255, 255, 255, 0.1);">CSS</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-4 mb-4 row cards">
+                        <a href="https://invoice-frontend-0tyz.onrender.com/" target="_blank" class="text-decoration-none">
+                            <div class="card w-100 h-100" data-aos="fade-up-right" style="width: 18rem; min-height: 300px; cursor: pointer;">
+                                <div style="height: 200px; background-image: url('./img/invoice.png'); background-size: cover; background-position: center; border-radius: 4px;">
+                                </div>
+                                <div class="card-body text-left">
+                                    <h6 class="card-title text-#6610f2 fw-bold">Invoice PDF Generater</h6>
+                                    <p class="card-text text-white">A powerful tool to generate professional</br> invoices in PDF format, featuring customiz-</br>able templates, automatic calculations, and</br> export options.</p>
+                                    <div class="d-flex flex-column align-items-center mt-auto">
+                                        <div class="d-flex justify-content-center gap-2">
+                                            <span class="badge text-white px-3 py-2 border border-secondary rounded-pill" style="background: rgba(255, 255, 255, 0.1);">Vite</span>
+                                            <span class="badge text-white px-3 py-2 border border-secondary rounded-pill" style="background: rgba(255, 255, 255, 0.1);">JavaScript</span>
+                                            <span class="badge text-white px-3 py-2 border border-secondary rounded-pill" style="background: rgba(255, 255, 255, 0.1);">Tailwind CSS</span>
+                                        </div>
+                                        <div class="d-flex justify-content-center gap-2 mt-2">
+                                            <span class="badge text-white px-3 py-2 border border-secondary rounded-pill" style="background: rgba(255, 255, 255, 0.1);">Node.Js</span>
+                                            <span class="badge text-white px-3 py-2 border border-secondary rounded-pill" style="background: rgba(255, 255, 255, 0.1);">MongoDB</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-4 mb-4 row cards">
+                        <a href="https://sps-game-sigma.vercel.app/" target="_blank" class="text-decoration-none">
+                            <div class="card w-100 h-100" data-aos="fade-up-right" style="width: 18rem; min-height: 300px; cursor: pointer;">
+                                <div style="height: 200px; background-image: url('./img/RPS.png'); background-size: cover; background-position: center; border-radius: 4px;">
+                                </div>
+                                <div class="card-body text-left">
+                                    <h6 class="card-title text-#6610f2 fw-bold">Rock Paper Scissor Game</h6>
+                                    <p class="card-text text-white">A fun and interactive Rock Paper Scissors</br> game with
+                                        real-time score tracking,smooth ani-</br>mations, and
+                                        an engaging user experience.</p>
+                                    <div class="d-flex flex-column align-items-center mt-auto">
+                                        <div class="d-flex justify-content-center gap-2">
+                                            <span class="badge text-white px-3 py-2 border border-secondary rounded-pill" style="background: rgba(255, 255, 255, 0.1);">HTML</span>
+                                            <span class="badge text-white px-3 py-2 border border-secondary rounded-pill" style="background: rgba(255, 255, 255, 0.1);">JavaScript</span>
+                                            <span class="badge text-white px-3 py-2 border border-secondary rounded-pill" style="background: rgba(255, 255, 255, 0.1);">CSS</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-4 mb-4 row cards">
+                        <a href="https://tic-tac-toe-game-ten-orcin.vercel.app/" target="_blank" class="text-decoration-none">
+                            <div class="card w-100 h-100" data-aos="fade-up-right" style="width: 18rem; min-height: 300px; cursor: pointer;">
+                                <div style="height: 200px; background-image: url('./img/TTT.png'); background-size: cover; background-position: center; border-radius: 4px;">
+                                </div>
+                                <div class="card-body text-left">
+                                    <h6 class="card-title text-#6610f2 fw-bold">Tic Tac Toe Game</h6>
+                                    <p class="card-text text-white">A classic Tic Tac Toe game with a responsive</br>
+                                        design, interactive gameplay, and intelligent AI</br> opponent for an engaging
+                                        experience.</p>
+                                    <div class="d-flex flex-column align-items-center mt-auto">
+                                        <div class="d-flex justify-content-center gap-2">
+                                            <span class="badge text-white px-3 py-2 border border-secondary rounded-pill" style="background: rgba(255, 255, 255, 0.1);">HTML</span>
+                                            <span class="badge text-white px-3 py-2 border border-secondary rounded-pill" style="background: rgba(255, 255, 255, 0.1);">JavaScript</span>
+                                            <span class="badge text-white px-3 py-2 border border-secondary rounded-pill" style="background: rgba(255, 255, 255, 0.1);">CSS</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-4 mb-4 row cards">
+                        <a href="https://background-changer-lake-rho.vercel.app/" target="_blank" class="card-link ms-0 text-decoration-none">
+                            <div class="card w-100 h-100" data-aos="fade-up-right" style="width: 18rem; min-height: 300px; cursor: pointer;">
+                                <div style="height: 200px; background-image: url('./img/bg.png'); background-size: cover; background-position: center; border-radius: 4px;">
+                                </div>
+                                <div class="card-body text-left">
+                                    <h6 class="card-title text-#6610f2 fw-bold">Background Changer</h6>
+                                    <p class="card-text text-white">A simple yet interactive web app that allows</br>
+                                        users to change the background color dynami-</br>cally with a single click,
+                                        enhancing the visual</br> experience.</p>
+                                    <div class="d-flex flex-column align-items-center mt-auto">
+                                        <div class="d-flex justify-content-center gap-2">
+                                            <span class="badge text-white px-3 py-2 border border-secondary rounded-pill" style="background: rgba(255, 255, 255, 0.1);">React.Js</span>
+                                            <span class="badge text-white px-3 py-2 border border-secondary rounded-pill" style="background: rgba(255, 255, 255, 0.1);">Tailwind CSS</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-4 mb-4 row cards">
+                        <a href="https://portfolio-ten-pied-47.vercel.app/" target="_blank" class="text-decoration-none">
+                            <div class="card w-100 h-100" data-aos="fade-up-right" style="width: 18rem; min-height: 300px; cursor: pointer;">
+                                <div style="height: 200px; background-image: url('./img/portfolio\ .png'); background-size: cover; background-position: center; border-radius: 4px;">
+                                </div>
+                                <div class="card-body text-left">
+                                    <h6 class="card-title text-#6610f2 fw-bold">Mac-Portfolio</h6>
+                                    <p class="card-text text-white">A sleek and modern portfolio website inspired</br>
+                                        by macOS design, showcasing projects, skills,</br> and experiences with smooth
+                                        animations and a</br> responsive layout.</p>
+                                    <div class="d-flex flex-column align-items-center mt-auto">
+                                        <div class="d-flex justify-content-center gap-2">
+                                            <span class="badge text-white px-3 py-2 border border-secondary rounded-pill" style="background: rgba(255, 255, 255, 0.1);">React.Js</span>
+                                            <span class="badge text-white px-3 py-2 border border-secondary rounded-pill" style="background: rgba(255, 255, 255, 0.1);">Tailwind CSS</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <button id="scrollRight" class="scroll-btn scroll-btn-right">›</button>
+    </section>
+    <!-- Projects end -->
+
+    <!-- Achievements start -->
+    <section id="achievements" class="mt-4 pt-1">
+        <div class="container pt-5 mt-5">
+            <h2 class="text-center fw-bold mb-5 mt-5">Achievements</h2>
+            <div class="row cards">
+                <div class="col-md-4 mb-5 mt-5">
+                    <a href="img/IBM certificate.jpg" target="_blank" class="text-decoration-none">
+                        <div class="card w-100 h-100" data-aos="fade-up-right" style="width: 18rem; min-height: 300px; cursor: pointer;">
+                            <div style="height: 200px; background-image: url('./img/certificate_1.png'); background-size: cover; background-position: center; border-radius: 4px;">
+                            </div>
+                            <div class="card-body text-left">
+                                <h6 class="card-title text-#6610f2 fw-bold">IBM certificate</h6>
+                                <p class="card-text text-white">IBM Learning Plan Certificate </p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4 mb-5 mt-5">
+                    <a href="img/Full-Stack web Development certificate.png" target="_blank"
+                        class="text-decoration-none">
+                        <div class="card w-100 h-100" data-aos="fade-up-right"
+                            style="width: 18rem; min-height: 300px; cursor: pointer;">
+                            <div style="height: 200px; background-image: url('./img/certificate_2.png'); background-size: cover; background-position: center; border-radius: 4px;">
+                            </div>
+                            <div class="card-body text-left">
+                                <h6 class="card-title text-#6610f2 fw-bold">Full Stack Web Development</h6>
+                                <p class="card-text text-white">100xDevs Course</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4 mb-5 mt-5">
+                    <a href="img/wipro.jpg" target="_blank" class="text-decoration-none">
+                        <div class="card w-100 h-100" data-aos="fade-up-right"
+                            style="width: 18rem; min-height: 300px; cursor: pointer;">
+                            <div style="height: 200px; background-image: url('./img/certificate_3.png'); background-size: cover; background-position: center; border-radius: 4px;">
+                            </div>
+                            <div class="card-body text-left">
+                                <h6 class="card-title text-#6610f2 fw-bold">Java Full Stack</h6>
+                                <p class="card-text text-white">wipro Certificate.</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements End -->
+
+    <!-- services start -->
+
+    <section id="services" class="mt-5 mb-5 pt-1">
+        <div class="container pt-5">
+            <h2 class="text-center mb-5 mt-5 fw-bold">Services</h2>
+            <div class="row cards">
+                <div class="col-md-4 mb-4">
+                    <div class="card w-100 mb-3 h-100" data-aos="flip-right" data-aos-duration="1000"
+                        style="width: 18rem">
+                        <img src="img/card2.jpg" class="card-img-top" alt="Web Developer icon" />
+                        <div class="card-body d-flex flex-column">
+                            <h6 class="card-title fw-bold text-left mb-3 text-#6610f2">Front-End Web Developer</h6>
+                            <p class="card-text mt-3 text-white">
+                                I am a certified Front-End Developer. And build various
+                                responsive websites
+                            </p>
                         </div>
                     </div>
                 </div>
-            </section>
-
-            <!-- Contact End  -->
-
-            <!-- Footer start -->
-
-            <footer id="footer">
-                <div class="container-fluid bg-dark py-2">
-                    <div class="mt-4 text-center px-1">Contact Me</div>
-                    <div class="mt-4 text-center px-1">
-                        <a href="https://github.com/AnilkumarKotyada" target="_blank" rel="noreferrer"
-                            class="text-decoration-none me-4">
-                            <i class="bi bi-github"></i>
-                        </a>
-                        <a href="https://www.linkedin.com/in/kotyada-anil-kumar-862a28280/" target="_blank"
-                            rel="noreferrer" class="text-decoration-none me-4">
-                            <i class="bi bi-linkedin"></i>
-                        </a>
-                        <a href="https://www.instagram.com/anil_roy11/" target="_blank" rel="noreferrer"
-                            class="text-decoration-none me-4">
-                            <i class="bi bi-instagram"></i>
-                        </a>
-                        <a href="" target="_blank" rel="noreferrer" class="text-decoration-none me-4">
-                            <i class="bi bi-facebook"></i>
-                        </a>
-                        <a href="tel:+91 9573457008" target="_blank" rel="noreferrer" class="text-decoration-none me-4">
-                            <i class="bi bi-telephone"></i>
-                        </a>
-                        <a href="mailto:anilkumarkotyada95@gmail.com" target="_blank" rel="noreferrer"
-                            class="text-decoration-none me-4">
-                            <i class="bi bi-envelope"></i>
-                        </a>
+                <div class="col-md-4 mb-4">
+                    <div class="card w-100 mb-3 h-100" data-aos="flip-right" data-aos-duration="1000"
+                        style="width: 18rem">
+                        <img src="img/card1.jpg" class="card-img-top" alt="Android App Development" />
+                        <div class="card-body d-flex flex-column">
+                            <h6 class="card-title text-left mb-3 fw-bold text-#6610f2">Full Stack Web Development</h6>
+                            <p class="card-text mt-auto text-white">
+                                Service i provide the best quality
+                                and at the request of the clients,
+                                with professional work and customer
+                                support.
+                            </p>
+                        </div>
                     </div>
                 </div>
-            </footer>
-
-            <!-- Footer end -->
-            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
-                integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
-                crossorigin="anonymous">
-                </script>
-            <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-            <script>
-                AOS.init();
-                window.onload = function () {
-                    var pageTitle = document.title;
-                    var attentionMessage = "Come Back! Know me better";
-
-                    document.addEventListener("visibilitychange", function (e) {
-                        var isPageActive = !document.hidden;
-
-                        if (!isPageActive) {
-                            document.title = attentionMessage;
-                        } else {
-                            document.title = pageTitle;
-                        }
-                    });
-                };
+            </div>
+        </div>
+        <!-- services End -->
+        <!-- Contact start  -->
+        <section id="contact" class="mt-4 pt-1">
+            <div class="container-fluid pt-5 mt-2">
+                <h2 class="text-center mb-5 mt-5 fw-bold">Connect with me!!</h2>
+                <div class="row">
+                    <div class="col-md-6 d-flex justify-content-center mb-4">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d486415.1748493235!2d82.93360182779787!3d17.73905227669159!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a39431389e6973f%3A0x92d9c20395498468!2sVisakhapatnam%2C%20Andhra%20Pradesh!5e0!3m2!1sen!2sin!4v1687458657881!5m2!1sen!2sin"
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                    <div class="col-md-6">
+                        <form id="form-data">
+                            <div class="mb-3">
+                                <label for="Name" class="form-label fw-bold">Full Name:</label>
+                                <input type="text" class="form-control" id="Name" placeholder="Enter Your Name"
+                                    aria-describedby="emailHelp" />
+                            </div>
+                            <div class="mb-3">
+                                <label for="teleInput" class="form-label fw-bold">Contact Number:</label>
+                                <input type="tel" class="form-control" id="teleInput"
+                                    placeholder="Enter Your Contact Number" aria-describedby="emailHelp" />
+                            </div>
+                            <div class="mb-3">
+                                <label for="InputEmail1" class="form-label fw-bold">Email Address:</label>
+                                <input type="email" class="form-control" id="InputEmail1"
+                                    placeholder="Enter Your Email Address" aria-describedby="emailHelp" />
+                                <div id="emailHelp" class="form-text">
+                                    We'll never share your email with anyone else.
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="Message" class="form-label fw-bold">Message:</label>
+                                <textarea class="form-control" id="Message" rows="3"
+                                    placeholder="Enter Your Message"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary mt-1 mb-3">
+                                Submit
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Contact End  -->
+        <!-- Footer start -->
+        <footer id="footer">
+            <div class="container-fluid bg-dark mt-4 py-2">
+                <div class="mt-2 text-center px-1 fw-bold">Contact Me</div>
+                <div class="mt-2 text-center px-1">
+                    <a href="https://github.com/AnilkumarKotyada" target="_blank" rel="noreferrer"
+                        class="text-decoration-none me-4">
+                        <i class="bi bi-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/kotyada-anil-kumar-862a28280/" target="_blank" rel="noreferrer"
+                        class="text-decoration-none me-4">
+                        <i class="bi bi-linkedin"></i>
+                    </a>
+                    <a href="https://www.instagram.com/anil_roy11/" target="_blank" rel="noreferrer"
+                        class="text-decoration-none me-4">
+                        <i class="bi bi-instagram"></i>
+                    </a>
+                    <a href="" target="_blank" rel="noreferrer" class="text-decoration-none me-4">
+                        <i class="bi bi-facebook"></i>
+                    </a>
+                    <a href="tel:+91 9573457008" target="_blank" rel="noreferrer" class="text-decoration-none me-4">
+                        <i class="bi bi-telephone"></i>
+                    </a>
+                    <a href="mailto:anilkumarkotyada95@gmail.com" target="_blank" rel="noreferrer"
+                        class="text-decoration-none me-4">
+                        <i class="bi bi-envelope"></i>
+                    </a>
+                </div>
+            </div>
+        </footer>
+        <!-- Footer end -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous">
             </script>
-    </body>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+            window.onload = function () {
+                var pageTitle = document.title;
+                var attentionMessage = "Come Back! Know me better";
+
+                document.addEventListener("visibilitychange", function (e) {
+                    var isPageActive = !document.hidden;
+
+                    if (!isPageActive) {
+                        document.title = attentionMessage;
+                    } else {
+                        document.title = pageTitle;
+                    }
+                });
+            };
+            document.getElementById("scrollLeft").addEventListener("click", function () {
+                document.getElementById("projectsContainer").scrollBy({ left: -1185, behavior: "smooth" });
+            });
+
+            document.getElementById("scrollRight").addEventListener("click", function () {
+                document.getElementById("projectsContainer").scrollBy({ left: 1185, behavior: "smooth" });
+            });
+
+        </script>
+</body>
